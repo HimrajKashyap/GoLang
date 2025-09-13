@@ -1,0 +1,15 @@
+package main
+
+import "fmt"
+
+func main() {
+	a, b := 10, 3
+	a, b = b, a
+	fmt.Println("Addition: ", a+b)
+	fmt.Println("multiplication: ", a*b)
+	fmt.Println("Division: ", a/b)
+	fmt.Println("Modulo: ", a%b)
+
+	const pi float64 = 22 / 7.0
+	fmt.Println(pi)
+}

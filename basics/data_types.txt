@@ -8,6 +8,12 @@ func main() {
 	lastname := "Smith"
 	const MAX = 10000
 
+	const (
+		mon     = 1
+		tue     = 2
+		wed int = 3
+	)
+
 	fmt.Println(MAX) //Constsnts are immutable values that donot change during execution
 	fmt.Println(count)
 	fmt.Println(lastname)
